@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --bg-black-900: #f2f2fc;
+  --bg-black-100: #fdf9ff;
+  --bg-black-50: #8dfec;
+  --text-black-900: #302e4d;
+  --text-black-700: #504e70;
+  --skin-color: red;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.padd-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.btn1 {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 35px;
+  color: white;
+  border-radius: 40px;
+  display: inline-block;
+  white-space: nowrap;
+  border: none;
+  background: var(--skin-color);
+  transition: all 0.3s ease;
+}
+
+.btn1:hover {
+  transform: scale(1.05);
+  background-color: red;
+}
+
+.shadow-dark {
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.heading {
+  padding: 2%;
+  margin-top: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Times New Roman", Times, serif;
+  /* color: #ff6b6b; */
+  color: #4a1515;
+  text-shadow: 8px -5px rgb(240, 219, 219);
+}
+.heading::before {
+  content: "";
+  height: 4px;
+  width: 10%;
+  background-color: var(--skin-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  position: absolute;
+}
+
+
+
+
+
+/* Home Content  */
+.mainHome {
+  padding-top: 10%;
+}
+
+.home {
+  max-height: 100vh;
+  width: 90%;
+  display: flex;
+  color: var(--text-black-900);
+}
+
+.home .home-info {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+
+h3.hello {
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+h3.hello span {
+  font-family: "Clicker Script", cursive;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--skin-color);
+}
+
+h3.my-profession {
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.typing {
+  color: var(--skin-color);
+}
+
+.home-info p {
+  margin-bottom: 70px;
+  font-size: 20px;
+  color: var(--text-black-700);
+}
+
+.home-img img {
+  border-radius: 10%;
+  height: 90%;
+  width: 80%;
+  transition: all 0.3s ease;
+}
+
+.home-img img:hover {
+  margin-top: -16px;
+  box-shadow: 0 0 15px 20px rgba(48, 46, 77, 0.15);
+}
+
+/* Home Content End  */
